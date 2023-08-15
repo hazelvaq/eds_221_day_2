@@ -118,26 +118,29 @@ trees
 
 ## How to add branches
 
-Branches: creates an additional side channel so you are not pushing and puling from the main channel it creates an intermediate area to work
+-   Branches: creates an additional side channel so you are not pushing and puling from the main channel it creates an intermediate area to work
 
-Git commit: to our local branch is what we usually do
+-   Git commit: to our local branch is what we usually do
 
-So instead of pushing straight to the main branch we will push to a remote branch and that can be merged in with remote main. By using a pull request. We can delete our remote branches once we push to our remote main. Safety check to mess around, test it there in case it breaks.
+-   So instead of pushing straight to the main branch we will push to a remote branch and that can be merged in with remote main. By using a pull request. We can delete our remote branches once we push to our remote main. Safety check to mess around, test it there in case it breaks.
 
-```{r}
-#Through Rstudio
-# In the terminal do git branch 
-# Then click the purple branch in the git Tab and then name branch and make sure it is synched to the remote repo
-# 
-# git branch to get into the new-branch-1
-# to exit git checkout name-of-branch
-# Then you can make edits the updated document is saved on your computer
-#But it will get tracked in our branch 1
-#Then you can git commit and git push and will get a notification on git that there is a new branch you can commit 
-#Come back to R and then get out of new branch by git checkout main
-#Then delete git branch -d new-branch-1
-#then pull and then commit push
-```
+-    In the terminal do git branch
+
+-   Then click the purple branch in the git Tab and then name branch and make sure it is synched to the remote repo
+
+-   git branch to get into the new-branch-1
+
+-   to exit git checkout name-of-branch
+
+-   Then you can make edits the updated document is saved on your computer
+
+-   But it will get tracked in our branch 1
+
+-   Then you can git commit and git push and will get a notification on git that there is a new branch you can commit
+
+-   Come back to R and then get out of new branch by git checkout main
+
+-   Then delete git branch -d new-branch-1 then pull and then commit push
 
 ## Matrix Indexing
 
@@ -155,5 +158,3 @@ fish_size[1,1]
 # Index a row or column
 fish_size[,1]
 ```
-
-an edit
