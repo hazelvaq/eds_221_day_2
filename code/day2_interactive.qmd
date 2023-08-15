@@ -126,4 +126,31 @@ So instead of pushing straight to the main branch we will push to a remote branc
 
 ```{r}
 #Through Rstudio
+# In the terminal do git branch 
+# Then click the purple branch in the git Tab and then name branch and make sure it is synched to the remote repo
+# 
+# git branch to get into the new-branch-1
+# to exit git checkout name-of-branch
+# Then you can make edits the updated document is saved on your computer
+#But it will get tracked in our branch 1
+#Then you can git commit and git push and will get a notification on git that there is a new branch you can commit 
+#Come back to R and then get out of new branch by git checkout main
+#Then delete 
+```
+
+## Matrix Indexing
+
+```{r}
+fish_size <- matrix(c(0.8,1.2,0.4,0.9), ncol = 2, byrow = FALSE)
+
+fish_size
+# Structure 
+str(fish_size)
+#Tells me the difference values data type
+typeof(fish_size)
+
+#Index matrix r,c
+fish_size[1,1]
+# Index a row or column
+fish_size[,1]
 ```
