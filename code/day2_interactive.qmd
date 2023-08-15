@@ -135,7 +135,8 @@ So instead of pushing straight to the main branch we will push to a remote branc
 #But it will get tracked in our branch 1
 #Then you can git commit and git push and will get a notification on git that there is a new branch you can commit 
 #Come back to R and then get out of new branch by git checkout main
-#Then delete 
+#Then delete git branch -d new-branch-1
+#then pull and then commit push
 ```
 
 ## Matrix Indexing
