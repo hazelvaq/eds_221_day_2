@@ -115,3 +115,15 @@ trees[yoda]
 trees[3] <- "OAK"
 trees
 ```
+
+## How to add branches
+
+Branches: creates an additional side channel so you are not pushing and puling from the main channel it creates an intermediate area to work
+
+Git commit: to our local branch is what we usually do
+
+So instead of pushing straight to the main branch we will push to a remote branch and that can be merged in with remote main. By using a pull request. We can delete our remote branches once we push to our remote main. Safety check to mess around, test it there in case it breaks.
+
+```{r}
+#Through Rstudio
+```
