@@ -7,7 +7,7 @@ execute:
   warning: false
 ---
 
-## Making & indexing data in R 
+## Making & indexing data in R
 
 ### Vectors
 
@@ -154,3 +154,5 @@ fish_size[1,1]
 # Index a row or column
 fish_size[,1]
 ```
+
+edit
